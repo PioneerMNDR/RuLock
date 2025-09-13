@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuLock - Русский дубляж для Deadlock</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #333333;
+            color: #ffffff;
+        }
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #555;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #444444;
+        }
+        audio, video {
+            margin: 5px 0;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div align="center">
+<img src="assets/icons/banner.png" alt="RuLock Banner" width="30%">
+</div>
+
+<h2>🎙️ <strong>О качестве дубляжа</strong>:</h2>
+
+<p>Многие скептически относятся к <strong>нейросетевому дубляжу</strong>, и зачастую справедливо: голоса могут звучать <strong>неестественно</strong>. Однако в <strong>Deadlock</strong>, где реплики персонажей — это скорее <strong>важные штрихи к лору</strong>, а не основа геймплея, такой подход раскрывается с лучшей стороны. Он позволяет услышать героев на родном языке и <strong>глубже погрузиться</strong> в атмосферу игры.</p>
+
+<p><strong>Что уже удалось сделать:</strong></p>
+
+<p>В моей работе я стремился к <strong>живости</strong>: герои делают <strong>паузы, расставляют акценты и передают эмоции</strong>, избегая <strong>монотонности</strong>, свойственной многим ИИ-генерациям. По сравнению с другими попытками AI-дубляжа, этот вариант звучит гораздо <strong>более органично</strong>.</p>
+
+<p><strong>Текущие проблемы и план их решения:</strong></p>
+
+<p>Я честно признаю, что озвучка <strong>не идеальна</strong>. На текущем этапе около <strong>30% фраз</strong> требуют доработки: встречаются <em>неверные ударения, артефакты звука или проскальзывающий английский акцент</em>. К счастью, все эти недочеты <strong>исправимы</strong> — это лишь вопрос времени и тщательной полировки.</p>
+
+<p><strong>Почему проект представлен сейчас:</strong></p>
+
+<p>Valve проделали <strong>колоссальную работу</strong>, записав около <strong>1700 реплик</strong> на каждого героя. Прослушать и отполировать такой объем в одиночку — задача <strong>титаническая</strong>. Поэтому сейчас я сосредоточился на количестве, чтобы представить вам <strong>«ядро» озвучки</strong> для ключевых персонажей. 
+На данный момент я использую образцы голосов из игры DOTA2, чтобы "не у кого не воровать".</p>
+
+<hr>
+
+<h3><strong>Теперь слово за вами!</strong></h3>
+
+<p>Мне крайне важно услышать <strong>мнение русскоязычного сообщества</strong>: <strong>стоит ли продолжать</strong> этот проект, доводить его до идеала и озвучивать остальных героев? Ваша <strong>поддержка и отзывы</strong> решат его дальнейшую судьбу.</p>
+
+<h2>🎬Трейлер</h2>
+
+<div align="center">
+
+<video controls width="80%">
+
+  <source src="assets/video/rudead_trailer1.mp4" type="video/mp4">
+
+  Ваш браузер не поддерживает видео.
+
+</video>
+
+</div>
+
+<hr>
+
+<h2>🎧 <strong>Демонстрация героев</strong></h2>
+
+<div align="center">
+
+<table>
+    <thead>
+        <tr>
+            <th>Герой</th>
+            <th>Демо</th>
+            <th>Качество озвучки</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/bebop_sm_psd.png" width="40"> Bebop</div></td>
+            <td><audio controls><source src="assets/demo/bebop_select_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/bebop_upgrade_power3_03.mp3" type="audio/mpeg"></audio></td>
+            <td>Отлично 🌟</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/bookworm_sm_psd.png" width="40"> Paige</div></td>
+            <td><audio controls><source src="assets/demo/bookworm_match_start_bookworm_frank_convo01_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/bookworm_select_01.mp3" type="audio/mpeg"></audio></td>
+            <td>Терпимо 🙂</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/drifter_sm_psd.png" width="40"> Drifter</div></td>
+            <td><audio controls><source src="assets/demo/drifter_match_start_drifter_mirage_convo01_07.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/drifter_select_01.mp3" type="audio/mpeg"></audio></td>
+            <td>Терпимо 🙂</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/dynamo_sm_psd.png" width="40"> Dynamo</div></td>
+            <td><audio controls><source src="assets/demo/dynamo_match_start_dynamo_haze_convo03_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/dynamo_upgrade_power4_06.mp3" type="audio/mpeg"></audio></td>
+            <td>На доработке 🔧</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/forge_sm_psd.png" width="40"> McGunnis</div></td>
+            <td><audio controls><source src="assets/demo/forge_sad_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/forge_unselect_09.mp3" type="audio/mpeg"></audio></td>
+            <td>На доработке 🔧</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/haze_sm_psd.png" width="40"> Haze</div></td>
+            <td><audio controls><source src="assets/demo/haze_kill_shiv_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/haze_match_start_dynamo_haze_convo03_02.mp3" type="audio/mpeg"></audio></td>
+            <td>Отлично 🌟</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/lash_sm_psd.png" width="40"> Lash</div></td>
+            <td><audio controls><source src="assets/demo/lash_kill_bebop_04.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/lash_upgrade_power1_10.mp3" type="audio/mpeg"></audio></td>
+            <td>Отлично 🌟</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/patronfemale.png" width="40"> Patron Female</div></td>
+            <td><audio controls><source src="assets/demo/patron_female_enemy_dynamo_start_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/patron_female_killstreak_count_02.mp3" type="audio/mpeg"></audio></td>
+            <td>Терпимо 🙂</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/patronmale.png" width="40"> Patron Male</div></td>
+            <td><audio controls><source src="assets/demo/patron_male_ally_shiv_start_04.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/patron_male_ally_vampirebat_start_03.mp3" type="audio/mpeg"></audio></td>
+            <td>Терпимо 🙂</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/shopkeeper_hotdog.png" width="40"> Shopkeeper</div></td>
+            <td><audio controls><source src="assets/demo/shopkeeper_hotdog_buy_early_13.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/shopkeeper_hotdog_buy_refresher_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/shopkeeper_hotdog_buy_tech_01.mp3" type="audio/mpeg"></audio></td>
+            <td>Отлично 🌟</td>
+        </tr>
+        <tr>
+            <td><div style="display: flex; align-items: center;"><img src="assets/icons/spirit_jar.png" width="40"> Spirit Jar</div></td>
+            <td><audio controls><source src="assets/demo/spirit_jar_idol_holder_stalls_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/spirit_jar_idol_waiting_on_bridge_17.mp3" type="audio/mpeg"></audio></td>
+            <td>Отлично 🌟</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+
+<hr>
+
+<h2>💖 <strong>Поддержать проект</strong></h2>
+
+<p>Если вам нравится этот проект и вы хотите поддержать его развитие, вы можете сделать пожертвование через ЮMoney. Любая сумма будет очень полезна!</p>
+
+<div align="center">
+  <div>
+    <iframe src="https://yoomoney.ru/quickpay/fundraise/button?billNumber=1COE4K88Q5B.250913&" 
+            width="330" height="50" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+  </div>
+  <div style="font-size:12px; color:gray; text-align:center; width:330px; margin:4px auto 0;">
+    <i>(SberPay, МИР, Mastercard, Visa, Maestro)</i>
+  </div>
+</div>
+
+<hr>
+
+<h2><strong>Перспективы</strong></h2>
+
+<p>Я могу озвучивать одного героя в день, а также озвучивать новых героев (спойлер: новых героев введут уже совсем скоро, судя по готовым фразам), если сообществу понравится озвучка</p>
+
+<h2>License</h2>
+
+<p>This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).  
+See the <a href="LICENSE">LICENSE</a> file for details.</p>
+
+<hr>
+
+<h3>Disclaimer</h3>
+<p>Deadlock © Valve Corporation.  
+This is a non-commercial fan project and is not affiliated with or endorsed by Valve.  
+All rights to the original game and its assets belong to Valve.</p>
+
+</body>
+</html>
