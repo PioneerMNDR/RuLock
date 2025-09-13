@@ -34,7 +34,7 @@ Valve проделали **колоссальную работу**, записа
 
 <video controls width="80%">
 
-  <source src="assets/video/rudead_trailer1.mp4" type="video/mp4">
+  <source src="assets/video/rulock_trailer1.webm" type="video/webm">
 
   Ваш браузер не поддерживает видео.
 
@@ -42,31 +42,13 @@ Valve проделали **колоссальную работу**, записа
 
 </div>
 
-## 🎧 **Демонстрация героев**
-
+## 🚀 Страница с демонстрациями
 
 <div align="center">
 
-
-| Герой | Демо | Качество озвучки |
-|-------|------|------------------|
-| <div style="display: flex; align-items: center;"><img src="assets/icons/bebop_sm_psd.png" width="40"> Bebop</div> | <audio controls><source src="assets/demo/bebop_select_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/bebop_upgrade_power3_03.mp3" type="audio/mpeg"></audio> | Отлично 🌟 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/bookworm_sm_psd.png" width="40"> Paige</div> | <audio controls><source src="assets/demo/bookworm_match_start_bookworm_frank_convo01_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/bookworm_select_01.mp3" type="audio/mpeg"></audio> | Терпимо 🙂 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/drifter_sm_psd.png" width="40"> Drifter</div> | <audio controls><source src="assets/demo/drifter_match_start_drifter_mirage_convo01_07.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/drifter_select_01.mp3" type="audio/mpeg"></audio> | Терпимо 🙂 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/dynamo_sm_psd.png" width="40"> Dynamo</div> | <audio controls><source src="assets/demo/dynamo_match_start_dynamo_haze_convo03_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/dynamo_upgrade_power4_06.mp3" type="audio/mpeg"></audio> | На доработке 🔧 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/forge_sm_psd.png" width="40"> McGunnis</div> | <audio controls><source src="assets/demo/forge_sad_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/forge_unselect_09.mp3" type="audio/mpeg"></audio> | На доработке 🔧 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/haze_sm_psd.png" width="40"> Haze</div> | <audio controls><source src="assets/demo/haze_kill_shiv_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/haze_match_start_dynamo_haze_convo03_02.mp3" type="audio/mpeg"></audio> | Отлично 🌟 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/lash_sm_psd.png" width="40"> Lash</div> | <audio controls><source src="assets/demo/lash_kill_bebop_04.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/lash_upgrade_power1_10.mp3" type="audio/mpeg"></audio> | Отлично 🌟 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/patronfemale.png" width="40"> Patron Female</div> | <audio controls><source src="assets/demo/patron_female_enemy_dynamo_start_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/patron_female_killstreak_count_02.mp3" type="audio/mpeg"></audio> | Терпимо 🙂 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/patronmale.png" width="40"> Patron Male</div> | <audio controls><source src="assets/demo/patron_male_ally_shiv_start_04.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/patron_male_ally_vampirebat_start_03.mp3" type="audio/mpeg"></audio> | Терпимо 🙂 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/shopkeeper_hotdog.png" width="40"> Shopkeeper</div> | <audio controls><source src="assets/demo/shopkeeper_hotdog_buy_early_13.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/shopkeeper_hotdog_buy_refresher_01.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/shopkeeper_hotdog_buy_tech_01.mp3" type="audio/mpeg"></audio> | Отлично 🌟 |
-| <div style="display: flex; align-items: center;"><img src="assets/icons/spirit_jar.png" width="40"> Spirit Jar</div> | <audio controls><source src="assets/demo/spirit_jar_idol_holder_stalls_03.mp3" type="audio/mpeg"></audio><br><audio controls><source src="assets/demo/spirit_jar_idol_waiting_on_bridge_17.mp3" type="audio/mpeg"></audio> | Отлично 🌟 |
-
+[![View Demo](https://img.shields.io/badge/🔗%20Открыть%20демо-brightgreen?style=for-the-badge)](https://pioneermndr.github.io/RuLock/)
 
 </div>
-
----
-
 
 
 ## 💖 **Поддержать проект**
@@ -75,18 +57,45 @@ Valve проделали **колоссальную работу**, записа
 
 
 <div align="center">
-  <div>
-    <iframe src="https://yoomoney.ru/quickpay/fundraise/button?billNumber=1COE4K88Q5B.250913&" 
-            width="330" height="50" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
-  </div>
-  <div style="font-size:12px; color:gray; text-align:center; width:330px; margin:4px auto 0;">
-    <i>(SberPay, МИР, Mastercard, Visa, Maestro)</i>
-  </div>
+  <a href="https://yoomoney.ru/transfer/quickpay?requestId=353630383634373434365f38336136666662336137636135643564343362653763636263396338393336373837383033383631">
+    <img src="https://img.shields.io/badge/💳_Поддержать_проект-YooMoney-8B3FFD?style=for-the-badge&labelColor=FFA500" alt="Поддержать через YooMoney">
+  </a>
+  <br>
+  <sub><i>SberPay, МИР, Mastercard, Visa, Maestro</i></sub>
 </div>
 
-## **Перспективы**
+## 🌅**Перспективы**
 
 Я могу озвучивать одного героя в день, а также озвучивать новых героев (спойлер: новых героев введут уже совсем скоро, судя по готовым фразам), если сообществу понравится озвучка
+
+
+## ⚙️**Как установить:**
+
+<div align="center">
+
+[![Download Button](https://img.shields.io/badge/Скачать_архив-darkgreen?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/PioneerMNDR/RuLock/releases/latest/download/addons.rar)
+
+</div>
+
+1. Скачайте архив и распокуйте его в папке <i>"\steamapps\common\Deadlock\game\citadel"</i>
+2. У вас должно получится <i>"steamapps\common\Deadlock\game\citadel\addons"</i>
+3. Откройте файл **gameinfo.gi** в папке citadel через блокнот
+4. Измените блок  SearchPaths 
+на  ``SearchPaths
+		{
+			// These are optional language paths. They must be mounted first, which is why there are first in the list.
+			// *LANGUAGE* will be replaced with the actual language name. If not running a specific language, these paths will not be mounted
+			Game_Language		citadel_*LANGUAGE*
+            Game                citadel/addons
+            Mod                 citadel
+            Write               citadel          
+            Game                citadel
+            Write               core
+            Mod                 core
+            Game                core 
+		}``
+
+
 
 
 
