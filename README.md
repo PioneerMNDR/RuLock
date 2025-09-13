@@ -38,18 +38,6 @@ Valve проделали **колоссальную работу**, записа
 </div>
 
 
-## 💖 **Поддержать проект**
-
-Если вам нравится этот проект и вы хотите поддержать его развитие, вы можете сделать пожертвование через ЮMoney. Любая сумма будет очень полезна!
-
-
-<div align="center">
-  <a href="https://yoomoney.ru/transfer/quickpay?requestId=353630383634373434365f38336136666662336137636135643564343362653763636263396338393336373837383033383631">
-    <img src="https://img.shields.io/badge/💳_Поддержать_проект-YooMoney-8B3FFD?style=for-the-badge&labelColor=FFA500" alt="Поддержать через YooMoney">
-  </a>
-  <br>
-  <sub><i>SberPay, МИР, Mastercard, Visa, Maestro</i></sub>
-</div>
 
 ## 🌅**Перспективы**
 
@@ -88,7 +76,7 @@ Valve проделали **колоссальную работу**, записа
 
 ## License
 
-This project is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).  
+This project is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
 See the [LICENSE](LICENSE) file for details.
 
 ---
